@@ -12,6 +12,9 @@ public class ex05 {
         String table = "언어\t\t종류\t\t\t\t자료형\nJava\tcompiled\t\t정적\nPython\tinterpreted\t\t동적";
         System.out.println(table);
 
+        String self = "백슬래쉬를 넣을 때 두 개 넣어주면 됨 \\ 이렇게";
+        System.out.println(self);
+
         char singleQuote = '\'';
         System.out.println(singleQuote);
 
