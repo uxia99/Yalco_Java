@@ -18,8 +18,6 @@ public class ex04 {
         byte bytNum = Byte.parseByte(str123);
         short srtNum = Short.parseShort(str123);
         int intNum = Integer.parseInt(str123);
-        long lngNum = Long.parseLong(str123);
-
-
+        long lngNum = Long.parseLong(str123)
     }
 }
