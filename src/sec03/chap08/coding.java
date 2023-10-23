@@ -33,5 +33,16 @@ public class coding {
                 {{'마'}}, {{'바'}},
                 {{'사','아'}}, {{'자', '차'}}
         };
+
+        final int[] NUMBERS = {1, 2, 3, 4, 5};
+
+        NUMBERS[1] = 22; // {1, 22, 3, 4, 5}
+
+        String[] strings = {"고양이", "햄스터", "쿼카"};
+
+        String join1 = String.join(",", strings);
+        String join2 = String.join("-", strings);
+        String join3 = String.join("그리고", strings);
+        String join4 = String.join("", strings);
     }
 }
