@@ -18,5 +18,7 @@ public class ex01 {
         //  ⭐️ 시스템의 printf 메소드 : String.format과 같은 형식으로 출력
         //  줄바꿈을 하지 않으므로 직접 넣어줘야 함
         System.out.printf("%s의 둘레는 반지름 X %d X %f입니다.%n", circle, two, PI);
+
+        System.out.printf("%d, %5d, %05d%n- - - - -%n%n", 123, 123, 123);
     }
 }
