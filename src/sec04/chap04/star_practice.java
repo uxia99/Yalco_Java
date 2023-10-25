@@ -12,7 +12,9 @@ public class star_practice {
             System.out.println();
         }
 
+
         System.out.println("\n - - - - - - \n");
+
 
         // 좌측 직각 삼각형
         for (int i = 0; i <= 5; i++) {
@@ -22,7 +24,9 @@ public class star_practice {
             System.out.println();
         }
 
+
         System.out.println("\n - - - - - - \n");
+
 
         // 우측 직각 삼각형
         for (int i = 0; i <= 5; i++) {
@@ -36,7 +40,9 @@ public class star_practice {
             System.out.println();
         }
 
+
         System.out.println("\n - - - - - - \n");
+
 
         // 피라미드
         for (int i = 0; i < 5; i++) {
@@ -49,7 +55,9 @@ public class star_practice {
             System.out.println();
         }
 
+
         System.out.println("\n - - - - - - \n");
+
 
         // 좌측 역 직각 삼각형
         for (int i = 0; i < 5; i++) {
@@ -59,7 +67,9 @@ public class star_practice {
             System.out.println();
         }
 
+
         System.out.println("\n - - - - - - \n");
+
 
         // 우측 역 직각 삼각형
         for (int i = 0; i < 5; i++) {
@@ -74,7 +84,9 @@ public class star_practice {
             System.out.println();
         }
 
+
         System.out.println("\n - - - - - - \n");
+
 
         // 역 피라미드
         for (int i = 0; i < 5; i++) {
@@ -93,7 +105,9 @@ public class star_practice {
             System.out.println();
         }
 
+
         System.out.println("\n - - - - - - \n");
+
 
         // 세로로 긴 삼각형(좌측)
         for (int i = 0; i < 5; i++) {
@@ -109,7 +123,9 @@ public class star_practice {
             System.out.println();
         }
 
+
         System.out.println("\n - - - - - - \n");
+
 
         // 세로로 긴 삼각형(우측)
         for(int i = 0; i < 5; i++) {
@@ -138,6 +154,7 @@ public class star_practice {
 
 
         System.out.println("\n - - - - - - \n");
+
 
         // 마름모
         for(int i = 1; i <= 5; i++) {
@@ -172,7 +189,9 @@ public class star_practice {
             System.out.println("");
         }
 
+
         System.out.println("\n - - - - - - \n");
+
 
         // 마름모
         for(int i = 0; i < 5; i++) {
@@ -206,6 +225,5 @@ public class star_practice {
             }
             System.out.println("");
         }
-
     }
 }
