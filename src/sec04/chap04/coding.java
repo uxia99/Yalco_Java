@@ -27,5 +27,40 @@ public class coding {
         }
 
         System.out.println("인류 멸종");
+
+        System.out.println("\n - - - - - - \n");
+
+        int j = 1;
+
+        while (true) {
+            if (j++ == 100) break;
+            if ((j - 1) % 3 != 0) continue;
+
+            System.out.println(j - 1);
+        }
+
+        System.out.println("\n - - - - - - \n");
+
+        int a = 1;
+
+        while (true) {
+            int cur = a++;
+
+            if (cur == 100) break;
+            if (cur % 3 != 0) continue;
+
+            System.out.println(cur);
+        }
+
+        int b = 1;
+
+        while (true) {
+            int car = b++;
+
+            if (car == 100) break;
+            if (car % 3 != 0) continue;
+
+            System.out.println(car);
+        }
     }
 }
