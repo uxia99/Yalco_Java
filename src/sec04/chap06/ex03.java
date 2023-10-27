@@ -7,6 +7,14 @@ public class ex03 {
         upTo5(2);
         upTo5(4);
 
+        System.out.println("\n - - - - - - \n");
+
+        int fact1 = factorial(1);
+        int fact2 = factorial(2);
+        int fact3 = factorial(3);
+        int fact4 = factorial(4);
+        int fact5 = factorial(5);
+
     }
 
     static void upTo5 (int start) {
@@ -16,6 +24,10 @@ public class ex03 {
         } else {
             System.out.println("-- 종료 --");
         }
+    }
+
+    static int factorial (int num) {
+        return num == 0 ? 1 : num * factorial(--num);
     }
 
 }
