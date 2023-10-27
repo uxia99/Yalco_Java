@@ -9,6 +9,17 @@ public class coding {
         String res4 = add("로보트 태권", 'V');
         String res5 = add('X', "Men");
 
+        System.out.println("\n - - - - - \n");
+
+        int intNum = 3;
+        modifyIntArg(intNum);
+
+        int[] intNums = {1, 2, 3};
+
+        modifyIntArg(intNums[0]);
+
+        modifyAryElem(intNums);
+
     }
 
     static int add (int a, int b) {
@@ -31,4 +42,13 @@ public class coding {
         return a + b;
     }
 
+    static void modifyIntArg (int num) {
+        System.out.printf("수정 전 : %d%n", num++);
+        System.out.printf("수정 후 : %d%n", num);
+    }
+
+    static void modifyAryElem (int[] ary) {
+        System.out.printf("수정 전 : %d%n", ary[1]++);
+        System.out.printf("수정 후 : %d%n", ary[1]);
+    }
 }
