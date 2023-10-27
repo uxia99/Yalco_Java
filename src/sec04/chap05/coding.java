@@ -33,6 +33,12 @@ public class coding {
                         "hello"
                 ) ? "Contain" : "Not Contain"
         );
+
+
+        System.out.println("\n - - - - - - \n");
+
+
+        double avg = getAverage(new int[] {3, 5, 4, 11, 7});
     }
 
     static void arithmetic (double a, double b) {
@@ -48,6 +54,14 @@ public class coding {
 
     static boolean checkIfContain (String text, String token) {
         return text.toLowerCase() .contains(token.toLowerCase());
+    }
+
+    static double getAverage (int[] nums) {
+        double sum = 0;
+        for (int num : nums) {
+            sum += num;
+        }
+        return sum / nums.length;
     }
 
 }
