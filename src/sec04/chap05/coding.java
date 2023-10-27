@@ -39,6 +39,28 @@ public class coding {
 
 
         double avg = getAverage(new int[] {3, 5, 4, 11, 7});
+
+
+        System.out.println("\n - - - - - - \n");
+
+
+        int[] numbers = {3, 5, 9, 1, 13, 4, 29};
+
+        int maxOfNumbers = getMaxAndMin(numbers)[0];
+        int minOfNumbers = getMaxAndMin(numbers)[1];
+
+
+        System.out.println("\n - - - - - - \n");
+
+
+        double avg1 = getAverage1(3, 91, 14, 93, 24);
+
+
+        System.out.println("\n - -  - - - - \n");
+
+
+        String[] kids = {"짱구", "철수", "유리", "훈이", "맹구"};
+        String class3DescByArr = descClass(2, "나미리", kids);
     }
 
     static void arithmetic (double a, double b) {
@@ -64,4 +86,26 @@ public class coding {
         return sum / nums.length;
     }
 
+    static int[] getMaxAndMin (int[] nums) {
+        int max = nums[0];
+        int min = nums[0];
+        for (int num : nums) {
+            max = max > num ? max : num;
+            min = min < num ? min : num;
+        }
+        return new int[] {max, min};
+    }
+
+    static double getAverage1(int... nums) {
+        double result = 0.0;
+        for (int num : nums) {
+            result += num;
+        }
+        return result / nums.length;
+    }
+
+    static String descClass (int classNo, String teacher, String... kids) {
+        return "%d반의 담임은 %s 선생님, 원생들은 %s 입니다."
+                .formatted(classNo, teacher, String.join(",", kids));
+    }
 }
