@@ -2,25 +2,44 @@ package sec04.chap05;
 
 public class ex01 {
     public static void main(String[] args) {
-        double x = 3, y = 4;
+//        double x = 3, y = 4;
+//
+//        System.out.printf("%f + %f = %f%n", x, y, x + y);
+//        System.out.printf("%f - %f = %f%n", x, y, x - y);
+//        System.out.printf("%f * %f = %f%n", x, y, x * y);
+//        System.out.printf("%f / %f = %f%n", x, y, x / y);
+//
+//        x = 10; y = 2;
+//
+//        System.out.printf("%f + %f = %f%n", x, y, x + y);
+//        System.out.printf("%f - %f = %f%n", x, y, x - y);
+//        System.out.printf("%f * %f = %f%n", x, y, x * y);
+//        System.out.printf("%f / %f = %f%n", x, y, x / y);
+//
+//        x = 7; y = 5;
+//
+//        System.out.printf("%f + %f = %f%n", x, y, x + y);
+//        System.out.printf("%f - %f = %f%n", x, y, x - y);
+//        System.out.printf("%f * %f = %f%n", x, y, x * y);
+//        System.out.printf("%f / %f = %f%n", x, y, x / y);
 
-        System.out.printf("%f + %f = %f%n", x, y, x + y);
-        System.out.printf("%f - %f = %f%n", x, y, x - y);
-        System.out.printf("%f * %f = %f%n", x, y, x * y);
-        System.out.printf("%f / %f = %f%n", x, y, x / y);
+        double xx = 3, yy = 4;
+        addSubtMultDiv(xx, yy);
 
-        x = 10; y = 2;
+        xx = 10; yy = 2;
+        addSubtMultDiv(xx, yy);
 
-        System.out.printf("%f + %f = %f%n", x, y, x + y);
-        System.out.printf("%f - %f = %f%n", x, y, x - y);
-        System.out.printf("%f * %f = %f%n", x, y, x * y);
-        System.out.printf("%f / %f = %f%n", x, y, x / y);
+        xx = 7; yy = 5;
+        addSubtMultDiv(xx, yy);
 
-        x = 7; y = 5;
+    }
 
-        System.out.printf("%f + %f = %f%n", x, y, x + y);
-        System.out.printf("%f - %f = %f%n", x, y, x - y);
-        System.out.printf("%f * %f = %f%n", x, y, x * y);
-        System.out.printf("%f / %f = %f%n", x, y, x / y);
+    //  ⭐️ 메인 메소드 외부에 선언할 것
+    static void addSubtMultDiv (double a, double b) {
+        System.out.printf("%f + %f = %f%n", a, b, a + b);
+        System.out.printf("%f - %f = %f%n", a, b, a - b);
+        System.out.printf("%f * %f = %f%n", a, b, a * b);
+        System.out.printf("%f / %f = %f%n", a, b, a / b);
+
     }
 }
