@@ -20,6 +20,12 @@ public class coding {
 
         modifyAryElem(intNums);
 
+        System.out.println("\n - - - - - \n");
+
+        upTo5(0);
+        upTo5(2);
+        upTo5(4);
+
     }
 
     static int add (int a, int b) {
@@ -50,5 +56,14 @@ public class coding {
     static void modifyAryElem (int[] ary) {
         System.out.printf("수정 전 : %d%n", ary[1]++);
         System.out.printf("수정 후 : %d%n", ary[1]);
+    }
+
+    static void upTo5 (int start) {
+        System.out.println(start);
+        if (start < 5) {
+            upTo5(++start);
+        } else {
+            System.out.println("-- End --");
+        }
     }
 }
