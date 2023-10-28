@@ -26,6 +26,14 @@ public class coding {
         upTo5(2);
         upTo5(4);
 
+        System.out.println("\n - - - - - \n");
+
+        int fact1 = factorial(1);
+        int fact2 = factorial(2);
+        int fact3 = factorial(3);
+        int fact4 = factorial(4);
+        int fact5 = factorial(5);
+
     }
 
     static int add (int a, int b) {
@@ -65,5 +73,9 @@ public class coding {
         } else {
             System.out.println("-- End --");
         }
+    }
+
+    static int factorial (int num) {
+        return num == 0 ? 1 : num * factorial(--num);
     }
 }
