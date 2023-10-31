@@ -7,7 +7,7 @@ public class YalcoChicken {
     }
     static int lastNo = 0; // ⭐️
 
-    int no;
+    // int no;
     int no = ++lastNo;
 
     String name;
