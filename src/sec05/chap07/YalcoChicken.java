@@ -14,7 +14,7 @@ public class YalcoChicken {
 
     public void changeFinalFields () {
         // ⚠️ 불가
-        this.no++;
+        // this.no++;
     }
 
     public final void fryChicken () {
