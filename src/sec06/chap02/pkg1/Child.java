@@ -7,3 +7,4 @@ public class Child extends Parent {
     int cc = c; // 💡 protected - 같은 패키지, 상속관계
     int dd = d;
 }
+
