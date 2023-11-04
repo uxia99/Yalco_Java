@@ -2,9 +2,10 @@ package sec06.chap02.pkg4;
 
 import sec06.chap02.pkg1.Child;
 import sec06.chap02.pkg1.Parent;
-import sec06.chap02.pkg3.Cls1;
-import sec06.chap02.pkg3.Cls2;
-import sec06.chap02.pkg3.Cls3;
+import sec06.chap02.pkg3.*; // ⭐️ 와일드카드
+//import sec06.chap02.pkg3.Cls1;
+//import sec06.chap02.pkg3.Cls2;
+//import sec06.chap02.pkg3.Cls3;
 
 public class Main {
     public static void main(String[] args) {
