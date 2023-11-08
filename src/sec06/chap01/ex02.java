@@ -1,6 +1,6 @@
 package sec06.chap01;
 
-public class Ex02 {
+public class ex02 {
     public static void main(String[] args) {
     //     System.out.println(a); // ⚠️ 클래스 메소드에서 인스턴스 필드 사용 불가
     }

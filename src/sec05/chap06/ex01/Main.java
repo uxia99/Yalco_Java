@@ -22,29 +22,27 @@ public class Main {
 //            //  ⭐️ 모든 Button들은 func 메소드를 가지므로
 //            button.func();
 //        }
-//
-//
-//        System.out.println("\n - - - - - - \n");
-//
-//
-//        Button button = new Button("버튼");
-//        ToggleButton toggleButton = new ToggleButton("토글", true);
-//        ShutDownButton shutDownButton = new ShutDownButton();
-//
-//        //  true
-//        boolean typeCheck1 = button instanceof Button;
-//        boolean typeCheck2 = toggleButton instanceof Button;
-//        boolean typeCheck3 = shutDownButton instanceof Button;
-//
-//        //  false
-//        boolean typeCheck4 = button instanceof ShutDownButton;
-//        boolean typeCheck5 = button instanceof ToggleButton;
-//
-//        //  ⚠️ 컴파일 에러
-//        // boolean typeCheck6 = toggleButton instanceof ShutDownButton;
-//        // boolean typeCheck7 = shutDownButton instanceof ToggleButton;
 
 
+        System.out.println("\n - - - - - - \n");
+
+
+        Button button = new Button("버튼");
+        ToggleButton toggleButton = new ToggleButton("토글", true);
+        ShutDownButton shutDownButton = new ShutDownButton();
+
+        //  true
+        boolean typeCheck1 = button instanceof Button;
+        boolean typeCheck2 = toggleButton instanceof Button;
+        boolean typeCheck3 = shutDownButton instanceof Button;
+
+        //  false
+        boolean typeCheck4 = button instanceof ShutDownButton;
+        boolean typeCheck5 = button instanceof ToggleButton;
+
+        //  ⚠️ 컴파일 에러
+        // boolean typeCheck6 = toggleButton instanceof ShutDownButton;
+        // boolean typeCheck7 = shutDownButton instanceof ToggleButton;
 
         Button[] buttons = {
                 new Button("Space"),

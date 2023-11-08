@@ -1,8 +1,8 @@
 package sec06.chap01;
 
-public class Ex04 {
+public class ex04 {
     public static void main(String[] args) {
-        new Ex04().printKings();
+        new ex04().printKings();
     }
 
     String king = "사자";

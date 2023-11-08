@@ -8,7 +8,6 @@ public class YalcoChicken {
         this.no = no;
         this.name = name;
     }
-
     public void takeHallOrder () {
         System.out.printf("%d호 %s점 홀 주문 받음%n", no, name);
     }
