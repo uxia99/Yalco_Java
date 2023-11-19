@@ -1,6 +1,6 @@
 package sec06.chap05;
 
-public class ex03 {
+public class Ex03 {
     public static void main(String[] args) {
         if (args.length < 2) {
             System.out.println("메뉴와 맵기를 모두 입력해주세요.");
