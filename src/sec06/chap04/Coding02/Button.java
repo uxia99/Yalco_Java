@@ -1,4 +1,4 @@
-package sec06.chap04.Coding02;
+package sec06.chap04.coding02;
 
 public class Button {
     String name;
