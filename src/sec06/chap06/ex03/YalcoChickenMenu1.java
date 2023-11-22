@@ -1,6 +1,6 @@
 package sec06.chap06.ex03;
 
-public enum YalcoChickenMenu {
+public enum YalcoChickenMenu1 {
     FR("Fried", 10000, 0),
     YN("Seasoned", 12000, 0),
     GJ("SoySouce", 12000, 0),
@@ -12,7 +12,7 @@ public enum YalcoChickenMenu {
     private int price;
     private int spicyLevel;
 
-    YalcoChickenMenu(String name, int price, int spicyLevel) {
+    YalcoChickenMenu1(String name, int price, int spicyLevel) {
         this.name = name;
         this.price = price;
         this.spicyLevel = spicyLevel;
