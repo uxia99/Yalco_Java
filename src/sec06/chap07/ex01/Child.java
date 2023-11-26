@@ -1,4 +1,7 @@
 package sec06.chap07.ex01;
 
-public class Child {
-}
+public record Child (
+    String name,
+    int birthYear,
+    Gender gender
+) {}
