@@ -1,7 +1,5 @@
 package sec06.chap06.ex03;
 
-import sec05.chap08.ex01.YalcoChicken;
-
 public class Main {
     public static void main(String[] args) {
         YalcoChickenMenu menu1 = YalcoChickenMenu.YN;
@@ -40,6 +38,14 @@ public class Main {
 
         for (var menu : menus) {
             System.out.println(menu.getDesc());
+        }
+
+        System.out.println("\n- - - - -\n");
+
+        YalcoChicken store1 = new YalcoChicken();
+
+        for (var menuName : "양념치킨,능이백숙,땡초치킨".split(",")) {
+            store1.takeOrder(menuName);
         }
     }
 }
