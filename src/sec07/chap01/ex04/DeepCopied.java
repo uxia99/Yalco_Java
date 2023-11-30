@@ -18,7 +18,6 @@ public class DeepCopied implements Cloneable {
 
     @Override
     protected Object clone() throws CloneNotSupportedException {
-
         //  원시값들 복사
         DeepCopied clone = (DeepCopied) super.clone();
 
