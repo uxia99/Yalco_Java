@@ -10,12 +10,14 @@ public class Main {
 
         NotCloneable clone1 = null;
 
-        try { // ❓ try 문 : 오류에 대비하기 섹션에서 배울 것
-            clone1 = (NotCloneable) notCloneable.clone();
-        } catch (CloneNotSupportedException e) {
-            System.out.printf("⚠ 복제중 오류 발생 : %s%n", notCloneable);
-        }
+//        try { // ❓ try 문 : 오류에 대비하기 섹션에서 배울 것
+//            clone1 = (NotCloneable) notCloneable.clone();
+//        } catch (CloneNotSupportedException e) {
+//            System.out.printf("⚠ 복제중 오류 발생 : %s%n", notCloneable);
+//        }
         //  ⚠️ 복사 실패 - CloneNotSupportedException 이라는 오류 발생
+
+
 
         ShallowCopied shallowCopied = new ShallowCopied(
                 "클릭들 1", 1, new int[] {1, 2, 3},
