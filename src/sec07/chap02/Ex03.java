@@ -49,5 +49,30 @@ public class Ex03 {
         String chrStr = new Character('A').toString(); // 생성자를 사용했기 때문에 빨간줄 뜸
 
 
+        //  인스턴스끼리의 value 비교
+        Integer intA = 12345;
+        Integer intB = 12345;
+        // 값은 같지만 서로 다른 주소를 가진 다른 인스턴스
+
+        boolean compByOp1 = intA == intB; // false ⚠️ 값은 같으나 다른 참조
+        boolean compByEq1 = intA.equals(intB); // true
+
+        Short srtA = 12345;
+
+        //  ⚠️ 자료형이 다르면 false 반환 (메소드 코드 확인)
+        boolean compByOp2 = intA.equals(srtA);
+
+
+        //  숫자 자료형 간 변환 - Number의 추상 메소드들
+
+        Byte int1Byt = int1.byteValue();
+        Double int1Dbl = int1.doubleValue();
+
+        Integer int4 = 123456789;
+        Byte int4Byt = int4.byteValue(); // ⚠️ 자료형보다 값이 큼
+
+        Float flt1 = 1234.5678f;
+        Integer flt1Int = flt1.intValue(); // ⚠️ 소수점 이하 버림
+        Short int1DblSrt = int1Dbl.shortValue();
     }
 }
