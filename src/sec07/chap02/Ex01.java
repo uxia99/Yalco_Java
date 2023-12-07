@@ -21,5 +21,9 @@ public class Ex01 {
         Double dbl3 = Double.valueOf(3.14);
         Character chr3 = Character.valueOf('A');
         Boolean bln3 = Boolean.valueOf(true);
+
+        // Number 자료형 - 추상클래스
+        Number num1 = int1;
+        Number num2 = dbl1;
     }
 }
