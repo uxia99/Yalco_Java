@@ -39,5 +39,15 @@ public class Ex03 {
             );
         }
 
+
+        //  💡 인스턴스 메소드들
+
+        //  문자열 반환 (Object에서 오버라이드)
+        String intStr = int1.toString();
+        String dblStr = Double.valueOf(3.14).toString();
+        String blnStr = ((Boolean) false).toString();
+        String chrStr = new Character('A').toString(); // 생성자를 사용했기 때문에 빨간줄 뜸
+
+
     }
 }
