@@ -21,5 +21,23 @@ public class Ex03 {
 
         //  parseInt(CharSequence, 시작위치, 끝위치, 진수)
         int int3 = Integer.parseInt("1234567", 3, 5, 10);
+
+
+        //  💡 문자 클래스 메소드들
+
+        String strSample = "Ab가1 .";
+        for (int i = 0; i < strSample.length(); i++) {
+            Character c = strSample.charAt(i);
+            System.out.printf(
+                    "[%c] : L: %b, U: %b, L: %b, D: %b, S: %b%n",
+                    c,
+                    Character.isLetter(c),
+                    Character.isUpperCase(c),
+                    Character.isLowerCase(c),
+                    Character.isDigit(c),
+                    Character.isSpaceChar(c)
+            );
+        }
+
     }
 }
